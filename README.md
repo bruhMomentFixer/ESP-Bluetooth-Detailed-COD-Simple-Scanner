@@ -5,6 +5,7 @@ Modify the #define SCAN_DEV_MAX to scan a maximum number of devices.
 The detailed COD description is based in the https://www.ampedrftech.com/datasheets/cod_definition.pdf which defines the class of device for format 00 devices.
 
 Print example:
+```
 Scanning BT devices.
 +1
 +1
@@ -34,3 +35,4 @@ MAJOR Device Class: Phone (cellular, cordless, payphone, modem, ...)
 minor Device Class: Smart Phone
 ------------------------------------
 Scan finished.
+```
