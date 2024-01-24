@@ -7,6 +7,8 @@ The detailed COD description is based in the https://www.ampedrftech.com/datashe
 
 You can check a COD specifications in https://www.ampedrftech.com/cod.htm (insert hexadecimal values).
 
+I also include (commented) functionality to print binary values of the gathered COD so that you can manually check the COD with the pdf guide mentioned before.
+
 Print example:
 ```
 Scanning BT devices.
