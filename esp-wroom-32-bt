@@ -6,24 +6,24 @@
 #define SCAN_DEV_MAX 2
 
 std::unordered_map<uint16_t, const char*> service_map = {
-    {1, "Limited Discoverable Mode"},
-    {2, "(Reserved)"},
-    {4, "(Reserved)"},
-    {8, "Positioning (Location identification)"},
-    {16, "Networking (AN, Ad hoc, ...)"},
-    {32, "Rendering (Printing, Speaker, ...)"},
-    {64, "Capturing (Scanner, Microphone, ...)"},
-    {128, "Object Transfer (v-Inbox, v-Folder, ...)"},
-    {256, "Audio (Speaker, Microphone, Headset Service, ...)"},
-    {512, "Telephony (Cordless Telephony, Modem, Headset Service, ...)"},
-    {1024, "Information (WEB-Server, WAP-Server, ...)"}
+  {1, "Limited Discoverable Mode"},
+  {2, "(Reserved)"},
+  {4, "(Reserved)"},
+  {8, "Positioning (Location identification)"},
+  {16, "Networking (AN, Ad hoc, ...)"},
+  {32, "Rendering (Printing, Speaker, ...)"},
+  {64, "Capturing (Scanner, Microphone, ...)"},
+  {128, "Object Transfer (v-Inbox, v-Folder, ...)"},
+  {256, "Audio (Speaker, Microphone, Headset Service, ...)"},
+  {512, "Telephony (Cordless Telephony, Modem, Headset Service, ...)"},
+  {1024, "Information (WEB-Server, WAP-Server, ...)"}
 };
 
 std::unordered_map<uint16_t, const char*> imaging_minor_class_map = {
-    {1, "Display"},
-    {2, "Camera"},
-    {4, "Scanner"},
-    {8, "Printer"},
+  {1, "Display"},
+  {2, "Camera"},
+  {4, "Scanner"},
+  {8, "Printer"},
 };
 
 //void printBinary(uint32_t value, int bits) {
