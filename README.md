@@ -5,6 +5,8 @@ Modify the #define SCAN_DEV_MAX to scan a maximum number of devices.
 
 The detailed COD description is based in the https://www.ampedrftech.com/datasheets/cod_definition.pdf which defines the class of device for format 00 devices.
 
+You can check a COD specifications in https://www.ampedrftech.com/cod.htm
+
 Print example:
 ```
 Scanning BT devices.
