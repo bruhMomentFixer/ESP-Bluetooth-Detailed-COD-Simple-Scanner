@@ -1,4 +1,4 @@
-# ESP-WROOM-32-Detailed-COD-Simple-Scanner
+# ESP-Detailed-COD-Simple-Scanner
 Scans a maximum of Bluetooth devices and then prints the devices addresses, RSSIs and a detailed description of the class of device (COD) of each device.
 
 Modify the #define SCAN_DEV_MAX to scan a maximum number of devices.
